@@ -1,7 +1,50 @@
+import java.math.BigInteger;
+import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome("Madam, I'm Adam!"));
+        int[] a1 = new int[]{0, 2, 2};
+        int[] a2 = new int[]{1, 3};
+        System.out.println(Arrays.toString(mergeArrays(a1,a2)));
+    }
+
+    /**
+     * Merges two given sorted arrays into one
+     *
+     * @param a1 first sorted array
+     * @param a2 second sorted array
+     * @return new array containing all elements from a1 and a2, sorted
+     */
+    public static int[] mergeArrays(int[] a1, int[] a2) {
+        int[] res = new int[a1.length+a2.length];
+        int j,k;
+        j=k=0;
+        for (int i = 0; i <res.length ; i++) {
+            if(a1[j]<a2[k]){
+                res[i] = a1[j];
+                j++;
+            }else{
+                res[i] = a2[k];
+                k++;
+            }
+        }
+        return res; // your implementation here
+    }
+
+
+    /**
+     * 2.4.08
+     * Calculates factorial of given <code>value</code>.
+     *
+     * @param value positive number
+     * @return factorial of <code>value</code>
+     */
+    public static BigInteger factorial(int value) {
+        BigInteger res = BigInteger.valueOf(1);
+        for (int i = 1; i <= value; i++) {
+            res = res.multiply(BigInteger.valueOf(i));
+        }
+        return res; // your implementation here
     }
 
     /**
