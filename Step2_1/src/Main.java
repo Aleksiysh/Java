@@ -1,7 +1,27 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(charExpression(29));
+        System.out.println(isPalindrome("Madam, I'm Adam!"));
+    }
+
+    /**
+     * 2.3.10
+     * Checks if given <code>text</code> is a palindrome.
+     *
+     * @param text any string
+     * @return <code>true</code> when <code>text</code> is a palindrome, <code>false</code> otherwise
+     */
+    public static boolean isPalindrome(String text) {
+        text = text.replaceAll("[^A-Za-z1-9]", "");
+        StringBuilder sbText = new StringBuilder(text);
+        return text.equalsIgnoreCase(sbText.reverse().toString()); // your implementation here
+    }
+
+    /**
+     * 2.2.9
+     */
+    public static boolean isPowerOfTwo(int value) {
+        return Integer.bitCount(Math.abs(value)) == 1; // you implementation here
     }
 
     public static boolean booleanExpression(boolean a, boolean b, boolean c, boolean d) {
