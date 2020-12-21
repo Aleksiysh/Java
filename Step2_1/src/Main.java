@@ -1,11 +1,12 @@
 import java.math.BigInteger;
 import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
         int[] a1 = new int[]{0, 2, 2};
         int[] a2 = new int[]{1, 3};
-        System.out.println(Arrays.toString(mergeArrays(a1,a2)));
+        System.out.println(Arrays.toString(mergeArrays(a1, a2)));
     }
 
     /**
@@ -16,18 +17,20 @@ public class Main {
      * @return new array containing all elements from a1 and a2, sorted
      */
     public static int[] mergeArrays(int[] a1, int[] a2) {
-        int[] res = new int[a1.length+a2.length];
-        int j,k;
-        j=k=0;
-        for (int i = 0; i <res.length ; i++) {
-            if(a1[j]<a2[k]){
-                res[i] = a1[j];
-                j++;
-            }else{
-                res[i] = a2[k];
-                k++;
-            }
-        }
+        int[] res = new int[a1.length + a2.length];
+        int i, j, k;
+        i = j = k = 0;
+        for (; i < res.length && j < a1.length && k < a2.length; i++)
+            if (a1[j] < a2[k])
+                res[i] = a1[j++];
+            else
+                res[i] = a2[k++];
+        if (j < a1.length)
+            for (; i < res.length; ++i)
+                res[i] = a1[j++];
+        else
+            for (; i < res.length; ++i)
+                res[i] = a2[k++];
         return res; // your implementation here
     }
 
