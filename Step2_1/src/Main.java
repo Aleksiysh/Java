@@ -4,14 +4,50 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] a1 = new int[]{0, 2, 2};
-        int[] a2 = new int[]{1, 3};
-        System.out.println(Arrays.toString(mergeArrays(a1, a2)));
+        String[] roles = new String[]{
+                "Городничий",
+                "Аммос Федорович",
+                "Артемий Филиппович",
+                "Лука Лукич"
+        };
+
+        String[] textLines = new String[]{
+                "Городничий: Я пригласил вас, господа, с тем, чтобы сообщить вам пренеприятное известие: к нам едет ревизор.",
+                "Аммос Федорович: Как ревизор?",
+                "Артемий Филиппович: Как ревизор?",
+                "Городничий: Ревизор из Петербурга, инкогнито. И еще с секретным предписаньем.",
+                "Аммос Федорович: Вот те на!",
+                "Артемий Филиппович: Вот не было заботы, так подай!",
+                "Лука Лукич: Господи боже! еще и с секретным предписаньем!"
+        };
+
+        System.out.println(printTextPerRole(roles,textLines));
     }
+
+    private static  String printTextPerRole(String[] roles, String[] textLines) {
+        StringBuilder res =new StringBuilder("");
+        int i =1;
+        for (String role:roles) {
+            res = res.append(role);
+            res = res.append(" :\n");
+            for(String textLine:textLines){
+                if(textLine.startsWith(role))
+                {
+                    textLine = textLine.substring(role.length()+2);
+                    res.append(""+(i++)+") "+textLine+"\n");
+                }
+            }
+            res.append("\n");
+
+
+        }
+        System.out.println(res.toString());
+        return "";
+    }
+
 
     /**
      * Merges two given sorted arrays into one
-     *
      *
      * @param a1 first sorted array
      * @param a2 second sorted array
