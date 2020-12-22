@@ -32,8 +32,7 @@ public class Main {
             res = res.append(role);
             res = res.append(":\n");
             for (int i = 0; i < textLines.length; i++) {
-
-                if (textLines[i].startsWith(role)) {
+                if (role.equals(textLines[i].substring(0,textLines[i].indexOf(":")))) {
                     String textLine = textLines[i].substring(role.length() + 2);
                     res.append((i + 1) + ") " + textLine + "\n");
                 }
