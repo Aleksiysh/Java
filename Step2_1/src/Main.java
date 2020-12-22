@@ -29,10 +29,10 @@ public class Main {
     private static String printTextPerRole(String[] roles, String[] textLines) {
         StringBuilder res = new StringBuilder("");
         for (String role : roles) {
-            res = res.append(role);
-            res = res.append(":\n");
+            res.append(role);
+            res.append(":\n");
             for (int i = 0; i < textLines.length; i++) {
-                if (role.equals(textLines[i].substring(0,textLines[i].indexOf(":")))) {
+                if (role.equals(textLines[i].substring(0, textLines[i].indexOf(":")))) {
                     String textLine = textLines[i].substring(role.length() + 2);
                     res.append((i + 1) + ") " + textLine + "\n");
                 }
