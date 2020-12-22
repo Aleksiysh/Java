@@ -5,10 +5,12 @@ public class Main {
 
     public static void main(String[] args) {
         String[] roles = new String[]{
+                "GTh",
                 "Городничий",
                 "Аммос Федорович",
                 "Артемий Филиппович",
-                "Лука Лукич"
+                "Лука Лукич",
+                "Лука"
         };
 
         String[] textLines = new String[]{
@@ -21,28 +23,24 @@ public class Main {
                 "Лука Лукич: Господи боже! еще и с секретным предписаньем!"
         };
 
-        System.out.println(printTextPerRole(roles,textLines));
+        System.out.println(printTextPerRole(roles, textLines));
     }
 
-    private static  String printTextPerRole(String[] roles, String[] textLines) {
-        StringBuilder res =new StringBuilder("");
-        int i =1;
-        for (String role:roles) {
+    private static String printTextPerRole(String[] roles, String[] textLines) {
+        StringBuilder res = new StringBuilder("");
+        for (String role : roles) {
             res = res.append(role);
-            res = res.append(" :\n");
-            for(String textLine:textLines){
-                if(textLine.startsWith(role))
-                {
-                    textLine = textLine.substring(role.length()+2);
-                    res.append(""+(i++)+") "+textLine+"\n");
+            res = res.append(":\n");
+            for (int i = 0; i < textLines.length; i++) {
+
+                if (textLines[i].startsWith(role)) {
+                    String textLine = textLines[i].substring(role.length() + 2);
+                    res.append((i + 1) + ") " + textLine + "\n");
                 }
             }
             res.append("\n");
-
-
         }
-        System.out.println(res.toString());
-        return "";
+        return res.toString();
     }
 
 
