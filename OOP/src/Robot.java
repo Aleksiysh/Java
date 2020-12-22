@@ -9,6 +9,7 @@ public class Robot {
         this.y = y;
         this.direction = direction;
     }
+
     public Robot(){
         this(0,0,Direction.UP);
     }

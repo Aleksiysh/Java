@@ -1,5 +1,10 @@
+import java.awt.*;
+
 public class Main {
     public static void main(String[] args) {
+        Shape shape = new Shape(Color.BLUE);
+        Shape circle = new Circle(new Point(2,3),3.5,Color.blue);
+        System.out.println(circle.getArea());
         Robot robot = new Robot(1,1,Direction.LEFT);
         robot.turnRight();
         robot.stepForward();
