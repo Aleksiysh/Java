@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="ССылка на метод">
-      <change afterPath="$PROJECT_DIR$/OOP/src/AsciiCharSequence.java" afterDir="false" />
+    <list default="true" id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="3.5.09">
+      <change afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/CheckLabels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/KeywordAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/NegativeTextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/SpamAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/TextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/TooLongTextAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/src/OOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/OOP.java" afterDir="false" />
     </list>
@@ -14,6 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -127,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608720543551</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="3.5.09">
+      <created>1608726674144</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608726674144</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,17 +161,7 @@
     <MESSAGE value="Анонимный класс" />
     <MESSAGE value="Lambda" />
     <MESSAGE value="ССылка на метод" />
-    <option name="LAST_COMMIT_MESSAGE" value="ССылка на метод" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/OOP/src/OOP.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="3.5.09" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.5.09" />
   </component>
 </project>

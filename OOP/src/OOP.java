@@ -1,15 +1,20 @@
 
+import textAnaliser.CheckLabels;
+
 import java.math.BigDecimal;
 import java.util.function.DoubleUnaryOperator;
 
 public class OOP {
     public static void main(String[] args) {
+    CheckLabels a = new CheckLabels();
+    a.main1();
 
-        AsciiCharSequence str = new AsciiCharSequence("1234567890");
-        System.out.println(str.charAt(1));
-        System.out.println(str.length());
-        System.out.println(str);
-        System.out.println(str.subSequence(0,5));
+
+//        AsciiCharSequence str = new AsciiCharSequence("1234567890");
+//        System.out.println(str.charAt(1));
+//        System.out.println(str.length());
+//        System.out.println(str);
+//        System.out.println(str.subSequence(0,5));
 
 //        double a = integrate(x -> 1, 0, 10);
 //        System.out.println(a);
@@ -17,6 +22,7 @@ public class OOP {
 //        long time = timer.measureTime(OOP::bigDecimalPower);
 //        System.out.println(time);
     }
+
 
     public static double integrate(DoubleUnaryOperator f, double a, double b) {
         double step = 1e-6;
