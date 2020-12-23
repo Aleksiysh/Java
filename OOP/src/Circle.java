@@ -1,5 +1,4 @@
 import java.awt.*;
-import java.util.Objects;
 
 public class Circle extends Shape {
     private final Point center;
@@ -26,10 +25,6 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle{" +
-                "center =" + center +
-                ", radius=" + radius +
-                ", color=" + getColor() +
-                "}";
+        return "Circle{" + "center =" + center + ", radius=" + radius + ", color=" + getColor() + "}";
     }
 }
