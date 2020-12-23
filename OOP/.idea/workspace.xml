@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0baee11b-d828-4d60-bdfd-115a7f7c0681" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/aleks/OOP/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/aleks/OOP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/aleks/OOP/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

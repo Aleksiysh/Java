@@ -1,13 +1,23 @@
 package ru.aleks.OOP;
 
-import java.awt.*;
+import java.math.BigDecimal;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("");
+        Timer timer = new Timer();
+        long time = timer.measureTime(new BigDecimalPower());
+        System.out.println(time);
     }
 
-    
+    private static class BigDecimalPower implements Runnable{
+        public void run(){new BigDecimal("1234567").pow(1000000);
+        }
+    }
+
+
+
+
+
     public static void moveRobot(Robot robot, int toX, int toY) {
         if (robot.getX() < toX)
             while (robot.getDirection() != Direction.RIGHT)
