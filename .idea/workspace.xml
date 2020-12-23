@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="Анонимный класс">
+    <list default="true" id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="ССылка на метод">
+      <change afterPath="$PROJECT_DIR$/OOP/src/AsciiCharSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/src/OOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/OOP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,7 +106,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608720059431</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lambda">
+      <created>1608720273229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608720273229</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lambda">
+      <created>1608720327801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608720327801</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ССылка на метод">
+      <created>1608720543551</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608720543551</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +144,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="Анонимный класс" />
-    <option name="LAST_COMMIT_MESSAGE" value="Анонимный класс" />
+    <MESSAGE value="Lambda" />
+    <MESSAGE value="ССылка на метод" />
+    <option name="LAST_COMMIT_MESSAGE" value="ССылка на метод" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OOP/src/OOP.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
