@@ -4,9 +4,10 @@ import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
-         System.out.println("");
+        System.out.println("");
     }
 
+    
     public static void moveRobot(Robot robot, int toX, int toY) {
         if (robot.getX() < toX)
             while (robot.getDirection() != Direction.RIGHT)
