@@ -1,3 +1,4 @@
+package ru.aleks.OOP;
 public class Point {
     private final double x;
     private final double y;

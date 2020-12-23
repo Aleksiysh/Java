@@ -1,3 +1,4 @@
+package ru.aleks.OOP;
 public class Robot {
 
     private Direction direction;

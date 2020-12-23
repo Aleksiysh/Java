@@ -1,3 +1,4 @@
+package ru.aleks.OOP;
 import java.awt.*;
 
 public class Shape {
