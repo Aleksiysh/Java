@@ -3,8 +3,6 @@ import java.math.BigDecimal;
 
 public class OOP {
     public static void main(String[] args) {
-        Robot robot = new Robot();
-        Direction a = Direction.UP;
 
         Timer timer = new Timer();
         long time = timer.measureTime(new BigDecimalPower());
@@ -12,7 +10,8 @@ public class OOP {
     }
 
     private static class BigDecimalPower implements Runnable{
-        public void run(){new BigDecimal("1234567").pow(1000000);
+        @Override
+        public void run(){new BigDecimal("1234567").pow(100000);
         }
     }
 
