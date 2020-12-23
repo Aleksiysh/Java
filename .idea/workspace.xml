@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/OOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step2_1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step2_1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step2_1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step2_1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Step2_1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/ComplexNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/ru/aleks/OOP/Timer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +22,36 @@
   </component>
   <component name="ProjectId" id="1m3MZTL43G3cEo3Cb0j1CppPhx7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.aleks.OOP.Main" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aleks.OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="" />

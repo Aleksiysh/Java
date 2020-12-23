@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 import java.util.Arrays;
 
-public class Main {
+public class Step2_1 {
 
     public static void main(String[] args) {
         String[] roles = new String[]{
