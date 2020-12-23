@@ -3,11 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="TextAnaliser скелет">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/CheckLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/CheckLabels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/KeywordAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/KeywordAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/NegativeTextAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/NegativeTextAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/SpamAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/SpamAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/TooLongTextAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/TooLongTextAnalyzer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,7 +48,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Step2_1">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="textAnaliser" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OOP">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aleks.OOP.Main" />
       <module name="OOP" />
@@ -69,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Step2_1" />
         <item itemvalue="Application.OOP" />
+        <item itemvalue="Application.Step2_1" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -154,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608728481166</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1">
+      <created>1608731375698</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608731375698</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,12 +191,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
     <MESSAGE value="Анонимный класс" />
     <MESSAGE value="Lambda" />
     <MESSAGE value="ССылка на метод" />
     <MESSAGE value="3.5.09" />
     <MESSAGE value="TextAnaliser скелет" />
-    <option name="LAST_COMMIT_MESSAGE" value="TextAnaliser скелет" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>

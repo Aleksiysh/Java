@@ -1,19 +1,18 @@
 package textAnaliser;
 
-class SpamAnalyzer  extends KeywordAnalyzer  implements TextAnalyzer{
+class SpamAnalyzer  extends KeywordAnalyzer{
 
-    @Override
-    public Label processText(String text) {
-        return null;
+    public SpamAnalyzer(String[] keywords) {
+        this.keywords = keywords;
     }
 
     @Override
     protected String[] getKeywords() {
-        return new String[0];
+        return keywords;
     }
 
     @Override
     protected Label getLabel() {
-        return null;
+        return Label.SPAM;
     }
 }

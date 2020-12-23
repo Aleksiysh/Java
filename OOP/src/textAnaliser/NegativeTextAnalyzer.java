@@ -1,18 +1,17 @@
 package textAnaliser;
 
-class NegativeTextAnalyzer extends KeywordAnalyzer implements TextAnalyzer{
-    @Override
-    public Label processText(String text) {
-        return null;
+class NegativeTextAnalyzer extends KeywordAnalyzer{
+    public NegativeTextAnalyzer() {
+        keywords = new String[]{":(","=(",":|"};
     }
 
     @Override
     protected String[] getKeywords() {
-        return new String[0];
+        return keywords;
     }
 
     @Override
     protected Label getLabel() {
-        return null;
+        return Label.NEGATIVE_TEXT;
     }
 }
