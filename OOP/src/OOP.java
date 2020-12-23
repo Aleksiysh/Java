@@ -5,15 +5,20 @@ public class OOP {
     public static void main(String[] args) {
 
         Timer timer = new Timer();
-        long time = timer.measureTime(new BigDecimalPower());
+        long time = timer.measureTime(new Runnable() {
+            @Override
+            public void run() {
+                new BigDecimal("1234567").pow(100000);
+            }
+        });
         System.out.println(time);
     }
 
-    private static class BigDecimalPower implements Runnable{
-        @Override
-        public void run(){new BigDecimal("1234567").pow(100000);
-        }
-    }
+//    private static class BigDecimalPower implements Runnable{
+//        @Override
+//        public void run(){new BigDecimal("1234567").pow(100000);
+//        }
+//    }
 
     public static void moveRobot(Robot robot, int toX, int toY) {
         if (robot.getX() < toX)
