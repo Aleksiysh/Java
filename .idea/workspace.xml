@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="TextAnaliser скелет">
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/CheckLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/CheckLabels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/KeywordAnalyzer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/Label.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/NegativeTextAnalyzer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/SpamAnalyzer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/TextAnalyzer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/TooLongTextAnalyzer.java" beforeDir="false" />
+    <list default="true" id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Exseptions/Exseptions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exseptions/src/Exseptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +51,10 @@
       <recent name="textAnaliser" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OOP">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.aleks.OOP.Main" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.aleks.OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Exceptions">
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <module name="Exceptions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,11 +73,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.OOP" />
+      <item itemvalue="Application.Step2_1" />
+      <item itemvalue="Application.Exceptions" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.OOP" />
         <item itemvalue="Application.Step2_1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608731375698</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactoring">
+      <created>1608788337303</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608788337303</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +201,7 @@
     <MESSAGE value="3.5.09" />
     <MESSAGE value="TextAnaliser скелет" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>
