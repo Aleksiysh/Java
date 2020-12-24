@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25d12d50-d18c-4740-ab69-b90bf9f15dbc" name="Default Changelist" comment="TextAnaliser скелет">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/CheckLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/CheckLabels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/KeywordAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/KeywordAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/NegativeTextAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/NegativeTextAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/SpamAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/SpamAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/TooLongTextAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/textAnaliser/TooLongTextAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/KeywordAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/Label.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/NegativeTextAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/SpamAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/TextAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/textAnaliser/TooLongTextAnalyzer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
