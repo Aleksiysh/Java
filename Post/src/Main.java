@@ -3,7 +3,6 @@ https://stepic.org/lesson/Логирование-12774/step/9?course=Java-Баз
  */
 
 
-
 import java.util.logging.*;
 
 public class Main {
@@ -34,7 +33,7 @@ public class Main {
             this.mailServices = mailServices;
             for (MailService ms : this.mailServices) {
                 if (ms instanceof RealMailService)
-                    this.realMailService = (RealMailService)ms;
+                    this.realMailService = (RealMailService) ms;
             }
             if (this.realMailService == null) {
                 this.realMailService = new RealMailService();
@@ -65,9 +64,9 @@ public class Main {
      * Объект конструируется от экземпляра Logger, с помощью которого шпион будет сообщать о всех действиях.
      * Он следит только за объектами класса MailMessage и пишет в логгер следующие сообщения
      * (в выражениях нужно заменить части в фигурных скобках на значения полей почты):
-     *      2.1) Если в качестве отправителя или получателя указан "Austin Powers",
-     *          то нужно написать в лог сообщение с уровнем WARN: Detected target mail correspondence: from {from} to {to} "{message}"
-     *      2.2) Иначе, необходимо написать в лог сообщение с уровнем INFO: Usual correspondence: from {from} to {to}
+     * 2.1) Если в качестве отправителя или получателя указан "Austin Powers",
+     * то нужно написать в лог сообщение с уровнем WARN: Detected target mail correspondence: from {from} to {to} "{message}"
+     * 2.2) Иначе, необходимо написать в лог сообщение с уровнем INFO: Usual correspondence: from {from} to {to}
      */
     public static class Spy implements MailService {
         private Logger logger;
@@ -79,13 +78,13 @@ public class Main {
         @Override
         public Sendable processMail(Sendable mail) {
             if (mail instanceof MailMessage) {
-                MailMessage ms = (MailMessage)mail;
+                MailMessage ms = (MailMessage) mail;
                 if (ms.getFrom().equals(AUSTIN_POWERS) || ms.getTo().equals(AUSTIN_POWERS)) {
                     logger.log(Level.WARNING, "Detected target mail correspondence: from {0} to {1} \"{2}\"",
-                            new Object[] { ms.getFrom(), ms.getTo(), ms.getMessage() });
+                            new Object[]{ms.getFrom(), ms.getTo(), ms.getMessage()});
                 } else {
                     logger.log(Level.INFO, "Usual correspondence: from {0} to {1}",
-                            new Object[] { ms.getFrom(), ms.getTo() });
+                            new Object[]{ms.getFrom(), ms.getTo()});
                 }
             }
             return mail;
@@ -137,7 +136,7 @@ public class Main {
         @Override
         public Sendable processMail(Sendable mail) {
             if (mail instanceof MailPackage) {
-                MailPackage mp = (MailPackage)mail;
+                MailPackage mp = (MailPackage) mail;
                 if (mp.content.price >= minPrice) {
                     this.stolenValue += mp.content.price;
                     return new MailPackage(mail.getFrom(), mail.getTo(), new Package("stones instead of " + mp.content.getContent(), 0));
@@ -161,6 +160,7 @@ public class Main {
 */
     public static interface Sendable {
         String getFrom();
+
         String getTo();
     }
 
